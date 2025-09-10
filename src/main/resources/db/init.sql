@@ -46,6 +46,7 @@ CREATE TABLE ticket
 
 CREATE INDEX idx_ticket_status_number ON ticket (status, number);
 CREATE INDEX idx_ticket_group_id ON ticket (group_id);
+CREATE table test()
 
 
 
